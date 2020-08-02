@@ -31,10 +31,12 @@
 respawn="false" output="screen">
     <remap from="/joint_states" to="/billi/joint_states" />
 </node>
+<<<<<<< HEAD
 
-<node pkg="rosbag" type="play" name="rosbag_play" output="screen" required="true"
-         args="--clock /home/prateek/practice_ws/src/billi_sim/bags/hyq.bag"/>
+
         
+=======
+>>>>>>> my_branch
 	
     </group>
 </launch>
